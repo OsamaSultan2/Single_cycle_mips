@@ -1,0 +1,66 @@
+{D:/digital project/single_cycle_MIPS/ALU_tb.v} {2 {vlog -work work -vopt -stats=none {D:/digital project/single_cycle_MIPS/ALU_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU_tb
+** Warning: D:/digital project/single_cycle_MIPS/ALU_tb.v(30): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: D:/digital project/single_cycle_MIPS/ALU_tb.v(43): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	ALU_tb
+
+} {} {}} {D:/digital project/single_cycle_MIPS/mips_processor.v} {1 {vlog -work work -vopt -stats=none {D:/digital project/single_cycle_MIPS/mips_processor.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mips_processor
+
+Top level modules:
+	mips_processor
+
+} {} {}} {D:/digital project/single_cycle_MIPS/register_file.v} {1 {vlog -work work -vopt -stats=none {D:/digital project/single_cycle_MIPS/register_file.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} {D:/digital project/single_cycle_MIPS/control_unit.v} {1 {vlog -work work -vopt -stats=none {D:/digital project/single_cycle_MIPS/control_unit.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}} {D:/digital project/single_cycle_MIPS/processor_tb.v} {1 {vlog -work work -vopt -stats=none {D:/digital project/single_cycle_MIPS/processor_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mips_processor_tb
+
+Top level modules:
+	mips_processor_tb
+
+} {} {}} {D:/digital project/single_cycle_MIPS/memory.v} {1 {vlog -work work -vopt -stats=none {D:/digital project/single_cycle_MIPS/memory.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} {D:/digital project/single_cycle_MIPS/control_unit_tb.v} {1 {vlog -work work -vopt -stats=none {D:/digital project/single_cycle_MIPS/control_unit_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module control_unit_tb
+
+Top level modules:
+	control_unit_tb
+
+} {} {}} {D:/digital project/single_cycle_MIPS/register_file_tb.v} {1 {vlog -work work -vopt -stats=none {D:/digital project/single_cycle_MIPS/register_file_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module register_file_tb
+
+Top level modules:
+	register_file_tb
+
+} {} {}} {D:/digital project/single_cycle_MIPS/ALU.V} {1 {vlog -work work -vopt -stats=none {D:/digital project/single_cycle_MIPS/ALU.V}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}

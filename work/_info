@@ -1,0 +1,322 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/digital project/APB_interface
+T_opt
+!s110 1729787400
+VbU]1F4FnKM^TZ6XgZj1HA0
+04 15 4 work control_unit_tb fast 0
+=1-6018954610e7-671a7607-3dc-2adc
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1732125955
+VmYdBg8LjDL`aMTIJb@b3h0
+04 17 4 work mips_processor_tb fast 0
+=1-94e23c601f58-673e2503-291-6a48
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1729183724
+VZf5DPNB8jdi5:=WdkED;j1
+04 6 4 work ALU_tb fast 0
+=1-94e23c601f58-67113fec-2d-6270
+R2
+R3
+R4
+n@_opt2
+R5
+R1
+vALU
+Z6 !s110 1733518113
+!i10b 1
+!s100 j4g]XhjhEdIoHW:Iz@c:z3
+IQ^K0<;<2n9A1Y64kbdU`91
+Z7 dD:/digital project/single_cycle_MIPS
+w1729784462
+8ALU.v
+FALU.v
+!i122 202
+L0 1 72
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z10 !s108 1733518113.000000
+!s107 processor_tb.v|mips_processor.v|static_memory.v|register_file.v|memory.v|control_unit.v|ALU.v|
+Z11 !s90 -reportprogress|300|ALU.v|control_unit.v|memory.v|register_file.v|static_memory.v|mips_processor.v|processor_tb.v|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@a@l@u
+vALU_tb
+Z13 !s110 1733517848
+!i10b 1
+!s100 Oli;<YT<?HX:L28eY4kQz1
+Ib06Edi?<@XmLNc=6=Bf4d1
+R7
+w1729182449
+8D:/digital project/single_cycle_MIPS/ALU_tb.v
+FD:/digital project/single_cycle_MIPS/ALU_tb.v
+!i122 197
+L0 1 174
+R8
+R9
+r1
+!s85 0
+31
+Z14 !s108 1733517848.000000
+!s107 D:/digital project/single_cycle_MIPS/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital project/single_cycle_MIPS/ALU_tb.v|
+!i113 0
+Z15 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@a@l@u_tb
+vcontrol_unit
+R6
+!i10b 1
+!s100 ;k3oH:Gk66E4TbGgGOMXL0
+IUQkjGUlWejHacRNhO[Eck0
+R7
+w1732123747
+8control_unit.v
+Fcontrol_unit.v
+!i122 202
+L0 1 137
+R8
+R9
+r1
+!s85 0
+31
+R10
+Z16 !s107 processor_tb.v|mips_processor.v|static_memory.v|register_file.v|memory.v|control_unit.v|ALU.v|
+R11
+!i113 0
+R12
+R4
+vcontrol_unit_tb
+R13
+!i10b 1
+!s100 NVez@PCTSd=F2bnFXYaQF2
+IRVIf5hI<MKDGH1P>HAi^82
+R7
+w1729787384
+8D:/digital project/single_cycle_MIPS/control_unit_tb.v
+FD:/digital project/single_cycle_MIPS/control_unit_tb.v
+!i122 199
+L0 1 27
+R8
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/digital project/single_cycle_MIPS/control_unit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital project/single_cycle_MIPS/control_unit_tb.v|
+!i113 0
+R15
+R4
+vmemory
+R6
+!i10b 1
+!s100 dLW`j:_M6P@n5G_A]8USa2
+I969@=X64SL@KWMboP]6Cz0
+R7
+w1732113875
+8memory.v
+Fmemory.v
+!i122 202
+L0 1 21
+R8
+R9
+r1
+!s85 0
+31
+R10
+R16
+R11
+!i113 0
+R12
+R4
+vmemory_tb
+!s110 1728844167
+!i10b 1
+!s100 WDiJ^ozQ<^dnMD=NfEko02
+I@?9]n2Xka:A[bfOHJ05i11
+R7
+w1728844152
+8D:\digital project\single_cycle_MIPS\memory.v
+FD:\digital project\single_cycle_MIPS\memory.v
+!i122 5
+L0 23 38
+R8
+R9
+r1
+!s85 0
+31
+!s108 1728844167.000000
+!s107 D:\digital project\single_cycle_MIPS\memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\digital project\single_cycle_MIPS\memory.v|
+!i113 0
+R15
+R4
+vmips_processor
+R6
+!i10b 1
+!s100 jPzIXb_?kO<@cAZ0>eJ_<3
+IzYEj3<O7X?fXPD8VD]kl[0
+R7
+w1732129784
+8mips_processor.v
+Fmips_processor.v
+!i122 202
+L0 1 62
+R8
+R9
+r1
+!s85 0
+31
+R10
+R16
+R11
+!i113 0
+R12
+R4
+vmips_processor_tb
+R6
+!i10b 1
+!s100 jzI9:VhnnFi0:dFWLMhMI2
+IMgTm7gz[o1Ai?zX[ahJmH1
+R7
+w1732124027
+8processor_tb.v
+Fprocessor_tb.v
+!i122 202
+L0 1 24
+R8
+R9
+r1
+!s85 0
+31
+R10
+R16
+R11
+!i113 0
+R12
+R4
+vregister_file
+R6
+!i10b 1
+!s100 f:YSAzLAEPLZnGQkDz]be0
+Ii09[CgZ^aU5gSOWn4Yn^@2
+R7
+w1732122344
+8register_file.v
+Fregister_file.v
+!i122 202
+L0 1 26
+R8
+R9
+r1
+!s85 0
+31
+R10
+R16
+R11
+!i113 0
+R12
+R4
+vregister_file_tb
+R13
+!i10b 1
+!s100 Yc<5QXQZiaCcK>L46iDdW1
+IL];B^;H@EFk:GDUe8mV_C2
+R7
+w1728936137
+8D:/digital project/single_cycle_MIPS/register_file_tb.v
+FD:/digital project/single_cycle_MIPS/register_file_tb.v
+!i122 195
+L0 1 39
+R8
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/digital project/single_cycle_MIPS/register_file_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital project/single_cycle_MIPS/register_file_tb.v|
+!i113 0
+R15
+R4
+vstatic_memory
+R6
+!i10b 1
+!s100 lUg>4NMNNmUhY76Ez_n^N3
+IV`hoaVX[<?YZ?]VzcPQJ31
+R7
+w1732114671
+8static_memory.v
+Fstatic_memory.v
+!i122 202
+L0 1 41
+R8
+R9
+r1
+!s85 0
+31
+R10
+R16
+R11
+!i113 0
+R12
+R4

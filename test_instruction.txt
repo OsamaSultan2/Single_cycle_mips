@@ -1,0 +1,21 @@
+addi $s0 , $zero , 20 ; 0x20100014
+
+addi $s1 ,$zero , 25 ;  0x20110019
+   
+add $t2 , $s1 ,$s0 ;           0x02305020
+
+Lui $t3, 1;                    0x3C0B0001
+
+Ori $t3 , $t3 , 1;             0x356B0001
+
+sw $t2 , 0 ($zero) ;           0xAC0A0000
+
+loop : 	sll $t3 ,$t3 ,1;       0x000B5840
+       
+       	addi $t2 , $t2 , -1;   0x212AFFFE
+       	beq $t2,$zero , done;  0x11400001
+	j loop;		    0x08000007
+DONE :  lw $s0 , 0($zero);  0x8C100000
+        sh $t3 , 6($zero);  0xA40B0006
+	or $s5 , $t3 , $s0; 0x0170A825
+	sb $s5 , 7($zero);  0xA0150007

@@ -52,8 +52,6 @@ wire [31:0] reg_two_chk;
       end 
       42:begin //======> set on less than
         {carry_f,result_in}=reg_one-reg_two;
-        
-        // PREPARING THE FLAGS FIRST 
       end 
       default: begin
         result_in =0;

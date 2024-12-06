@@ -1,5 +1,5 @@
 module register_file (
-  input rst,wr_en,clk, //should check clock and senstivity list
+  input rst,wr_en,clk, 
   input [31:0] din,
   input [4:0] result_addr, op_one_addr,op_two_addr,
   output reg [31:0] op_one,op_two

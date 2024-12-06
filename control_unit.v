@@ -64,7 +64,7 @@ always @(instruction) begin
       reg_dst=0;
       jump=0;
       branch=0;
-      immediate_shifter=0;   // lb, lh must be study its signals  again
+      immediate_shifter=0;  
       ALU_op=6'b10_0000;
       memory_access=op_code[1:0];
     end 
@@ -79,7 +79,7 @@ always @(instruction) begin
       jump=0;
       branch=0;
       immediate_shifter=0;   
-      ALU_op=6'b10_0000;    // sb, sh must  study its signals  again
+      ALU_op=6'b10_0000;    
       memory_access=op_code[1:0];
     end 
     //--------------- branching instruction ---------

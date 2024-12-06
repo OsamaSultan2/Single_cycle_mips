@@ -5,7 +5,6 @@ module memory #(
 ) (
   input clk,wr_en,rd_en,rst,
   input [ADDRESS_WIDTH-1:0] address,
-//  input [DATA_WIDTH-1:0] din,
   output reg [DATA_WIDTH-1:0] dout
 );
 

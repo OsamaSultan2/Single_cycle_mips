@@ -57,6 +57,4 @@ register_file reg_file (.result_addr(result_addr),.op_one_addr(op_one_addr),.op_
   end
   //---------------- branching ---------------------------
   assign branch= (zero_f & branch_eq) |(!zero_f &branch_ne);
-  //---------------- jumping -----------------------------
-  //assign program_counter=(jump)?({{PC[31:28]},{instruction[25:0],2'b00}}):PC;
 endmodule
